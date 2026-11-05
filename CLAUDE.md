@@ -25,6 +25,12 @@ The marketing plugin (`marketing@knowledge-work-plugins`) is installed for this 
 - Never send email to real people. Practice leads use only `@example.com` addresses.
 - Ask before deleting anything.
 
+## Brand voice
+
+Follow the Petafyve brand voice in every piece of writing:
+
+@brand/voice.md
+
 ## Commands
 
 There's no build or test tooling yet. The course adds these later:
