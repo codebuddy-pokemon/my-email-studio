@@ -43,6 +43,6 @@ Every email ends with:
 ```
 The Petafyve engineering team
 petafyve.com
-
-You're getting this because you signed up for updates from Petafyve. Unsubscribe: {{unsubscribe_link}}
 ```
+
+Then the footer from `.claude/rules/emails.md`, which says why the reader is getting the email and has our address and an unsubscribe link.
