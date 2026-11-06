@@ -1,0 +1,21 @@
+Subject: OpenShift training: enrolment is open
+Preview: Hands-on labs on a real OpenShift 4.x cluster. First cohort starts Monday 11 January.
+
+Hi {{first_name}},
+
+You joined the waitlist for Petafyve's OpenShift training. Enrolment is now open.
+
+The course is hands-on. Every module is a lab on a real OpenShift 4.x cluster, not a slide deck. You deploy, scale, upgrade and troubleshoot, the same work you do on your cluster.
+
+It's taught by Petafyve engineers who build production-ready OpenShift, RHEL and OpenStack platforms as a Red Hat delivery partner.
+
+**First cohort:** Monday 11 January 2027
+**Enrolment closes:** Sunday 3 January 2027
+
+[See the course and enrol](https://petafyve.example/openshift-training)
+
+The Petafyve engineering team
+petafyve.com
+
+You're getting this because you joined the Petafyve OpenShift training waitlist.
+Petafyve, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
