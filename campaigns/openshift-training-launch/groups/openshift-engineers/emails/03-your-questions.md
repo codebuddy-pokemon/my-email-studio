@@ -1,5 +1,5 @@
 Subject: Your OpenShift training questions, answered
-Preview: Who the course is for, fitting it around delivery work, and how it links to certification.
+Preview: Who the course is for, fitting it around on-call work, and how it links to certification.
 
 Hi {{first_name}},
 
@@ -7,9 +7,7 @@ If you run OpenShift day to day, these short answers cover what you need to know
 
 **I already run OpenShift. Is it too basic?** No. The later modules cover day-2 operations: operators, cluster upgrades and troubleshooting failing workloads in production.
 
-**Is it a big jump from RHEL?** The course goes from RHEL to containers to OpenShift step by step, so you build on what you already know.
-
-**How do I fit it around delivery work?** The course page lists the outline and cohort dates, so you can plan time with your team before Monday 11 January 2027.
+**How do I fit it around on-call work?** The course page lists the outline and cohort dates, so you can plan time with your team before Monday 11 January 2027.
 
 **Does it help with certification?** The course prepares you for Red Hat certification study.
 

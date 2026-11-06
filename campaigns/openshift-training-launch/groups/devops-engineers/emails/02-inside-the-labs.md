@@ -3,13 +3,11 @@ Preview: Pipelines, day-2 operations and the path from RHEL. See the labs that m
 
 Hi {{first_name}},
 
-Every module in the course is a lab on a real OpenShift 4.x cluster, so what you build there works like the pipelines you run at work. Here's what that looks like for three kinds of work.
+Every module in the course is a lab on a real OpenShift 4.x cluster, so the pipelines you build there work like the ones you run at work.
 
-**If you run pipelines:** deploy an app to OpenShift with GitOps from a pipeline you build in the lab, then scale it.
+**Your path:** build a pipeline in the lab, deploy an app to OpenShift with GitOps, then scale it.
 
-**If you already run OpenShift:** work with operators, run a cluster upgrade and troubleshoot a failing workload.
-
-**If you look after RHEL servers:** go from RHEL to containers to OpenShift, one step at a time.
+**Also in the course:** operators, cluster upgrades, troubleshooting failing workloads, and the step from RHEL to containers.
 
 You leave with skills you can use on your cluster straight away.
 

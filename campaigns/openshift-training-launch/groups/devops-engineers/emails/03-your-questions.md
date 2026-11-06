@@ -5,11 +5,9 @@ Hi {{first_name}},
 
 If you spend your week on pipelines and releases, these short answers cover what you need to know about the course.
 
-**I already run OpenShift. Is it too basic?** No. The later modules cover day-2 operations: operators, upgrades and troubleshooting in production.
-
-**Is it a big jump from RHEL?** The course goes from RHEL to containers to OpenShift step by step, so you build on what you already know.
-
 **How do I fit it around delivery work?** The course page lists the outline and cohort dates, so you can plan time around your release schedule before Monday 11 January 2027.
+
+**I already deploy to OpenShift. Is it too basic?** No. The GitOps labs start from a pipeline you build, and the later modules cover day-2 operations: operators, upgrades and troubleshooting.
 
 **Does it help with certification?** The course prepares you for Red Hat certification study.
 

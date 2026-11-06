@@ -5,7 +5,7 @@ Hi {{first_name}},
 
 You joined the waitlist for Petafyve's OpenShift training to take your RHEL skills into containers. Enrolment is now open.
 
-The course is hands-on. Every module is a lab on a real OpenShift 4.x cluster, not a slide deck. You start from RHEL, move to containers, then deploy, scale and troubleshoot on OpenShift: the same path your servers are taking.
+The course is hands-on. Every module is a lab on a real OpenShift 4.x cluster, not a slide deck. You start from RHEL, move to containers, then deploy, scale and troubleshoot on OpenShift: the path from the servers you run today.
 
 It's taught by Petafyve engineers who build production-ready OpenShift, RHEL and OpenStack platforms as a Red Hat delivery partner.
 
