@@ -5,7 +5,7 @@ Hi {{first_name}},
 
 Enrolment for Petafyve's OpenShift training closes this Sunday, 3 January 2027.
 
-The first cohort starts on Monday 11 January. Every module is a hands-on lab on a real OpenShift 4.x cluster, taught by engineers who build production-ready OpenShift platforms every week.
+The first cohort starts on Monday 11 January 2027. Every module is a hands-on lab on a real OpenShift 4.x cluster, taught by engineers who build production-ready OpenShift platforms.
 
 [Enrol before Sunday](https://petafyve.example/openshift-training)
 

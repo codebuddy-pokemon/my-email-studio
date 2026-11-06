@@ -11,7 +11,7 @@ Every module in the course is a lab on a real OpenShift 4.x cluster. Here's what
 
 **If you look after RHEL servers:** go from RHEL to containers to OpenShift, one step at a time.
 
-You leave with skills you can use on your cluster the next Monday.
+You leave with skills you can use on your cluster straight away.
 
 [See the full lab list](https://petafyve.example/openshift-training)
 
