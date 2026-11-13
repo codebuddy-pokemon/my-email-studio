@@ -23,6 +23,7 @@ The marketing plugin (`marketing@knowledge-work-plugins`) is installed for this 
 
 - Write in plain English.
 - Never send email to real people. Practice leads use only `@example.com` addresses.
+- Sending through Resend (the `resend` MCP server in `.mcp.json`) is allowed only to Resend's test addresses (ending in `@resend.dev`) and to my own address (set as `MY_EMAIL` in my untracked `.claude/settings.local.json`). A guard added in step 10 will enforce this.
 - Ask before deleting anything.
 
 ## Brand voice
