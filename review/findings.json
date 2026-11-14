@@ -1,0 +1,25 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/openshift-training-launch/groups/devops-engineers/emails/01-enrolment-open.md",
+      "line": 1,
+      "severity": "medium",
+      "problem": "The three group versions of email 01 (devops-engineers, openshift-engineers, linux-admins) still use the subject 'OpenShift training: enrolment is open'. The main email 01 now uses 'Deploy, upgrade, troubleshoot: see the labs', which the last commit calls the final subject line. The group copies are the ones that get sent, so they would go out with the old subject.",
+      "fix": "Change line 1 in all three group copies of 01-enrolment-open.md to 'Subject: Deploy, upgrade, troubleshoot: see the labs', or a version for each group that matches the final one."
+    },
+    {
+      "file": "campaigns/openshift-training-launch/emails/03-your-questions.md",
+      "line": 2,
+      "severity": "low",
+      "problem": "The preview promises 'Who the course is for', but no question in the body answers that. The same gap is in all three group copies of email 03.",
+      "fix": "Either add a short 'Who is it for?' answer, or change the preview to what the email actually covers, e.g. 'Is it too basic, fitting it around delivery work, and how it links to certification.'"
+    },
+    {
+      "file": "campaigns/openshift-training-launch/groups/linux-admins/emails/02-inside-the-labs.md",
+      "line": 12,
+      "severity": "low",
+      "problem": "'You leave with skills you can use on your cluster straight away' doesn't fit Linux admins. This copy is written for people who look after RHEL servers and are only starting with containers, so most of them don't have a cluster yet.",
+      "fix": "Rewrite for this group, e.g. 'You leave with skills you can use on your RHEL servers and your first OpenShift cluster.'"
+    }
+  ]
+}
