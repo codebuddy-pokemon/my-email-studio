@@ -1,5 +1,5 @@
 Subject: Your OpenShift training questions, answered
-Preview: Who the course is for, fitting it around delivery work, and how it links to certification.
+Preview: Is it too basic, the jump from RHEL, fitting it around delivery work, certification.
 
 Hi {{first_name}},
 

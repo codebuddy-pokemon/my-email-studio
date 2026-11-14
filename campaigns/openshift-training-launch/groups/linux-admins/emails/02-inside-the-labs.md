@@ -9,7 +9,7 @@ Every module in the course is a lab on a real OpenShift 4.x cluster, starting fr
 
 **Later modules:** GitOps deploys, operators, cluster upgrades and troubleshooting failing workloads.
 
-You leave with skills you can use on your cluster straight away.
+You leave with skills you can use on your RHEL servers and your first OpenShift cluster.
 
 [See the full lab list](https://petafyve.example/openshift-training)
 

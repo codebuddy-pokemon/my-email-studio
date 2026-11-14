@@ -1,5 +1,5 @@
 Subject: Your OpenShift training questions, answered
-Preview: Who the course is for, fitting it around on-call work, and how it links to certification.
+Preview: Whether it's too basic, fitting it around on-call work, and certification.
 
 Hi {{first_name}},
 

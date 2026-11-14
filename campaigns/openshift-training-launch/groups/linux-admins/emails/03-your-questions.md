@@ -1,5 +1,5 @@
 Subject: Your OpenShift training questions, answered
-Preview: Who the course is for, fitting it around admin work, and how it links to certification.
+Preview: The jump from RHEL, container experience, admin time, and certification.
 
 Hi {{first_name}},
 
