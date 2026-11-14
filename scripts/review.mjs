@@ -29,9 +29,30 @@ if (!existsSync(folderAbs) || !statSync(folderAbs).isDirectory()) {
 const folder = relative(root, folderAbs) || ".";
 
 const schema = readFileSync(schemaPath, "utf8");
-const prompt =
+let prompt =
   `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. ` +
   `Report only real problems.`;
+
+// Re-review: if the last review was of this same folder, pass its findings in
+// so Claude reports only new or still-unfixed problems.
+const previous = readPrevious();
+if (previous) {
+  prompt +=
+    `\n\nThese are findings from the last review. Report only problems that are new ` +
+    `or still not fixed. Don't repeat ones that have been fixed.\n\n` +
+    JSON.stringify(previous.findings, null, 2);
+}
+
+function readPrevious() {
+  if (!existsSync(outPath)) return null;
+  try {
+    const saved = JSON.parse(readFileSync(outPath, "utf8"));
+    if (saved.folder === folder && Array.isArray(saved.findings)) return saved;
+  } catch {
+    console.error("review: ignoring unreadable review/findings.json");
+  }
+  return null;
+}
 
 const run = spawnSync(
   "claude",
@@ -67,13 +88,14 @@ if (!output || !Array.isArray(output.findings)) {
 }
 
 mkdirSync(dirname(outPath), { recursive: true });
-writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n");
+writeFileSync(outPath, JSON.stringify({ folder, findings: output.findings }, null, 2) + "\n");
 
 const count = (s) => output.findings.filter((f) => f.severity === s).length;
 const high = count("high");
 console.log(
   `${folder}: ${output.findings.length} finding(s) ` +
   `(${high} high, ${count("medium")} medium, ${count("low")} low). ` +
+  `${previous ? "Re-review against " + previous.findings.length + " earlier finding(s). " : ""}` +
   `Saved to ${relative(root, outPath)}.`,
 );
 process.exit(high > 0 ? 1 : 0);
