@@ -4,16 +4,23 @@
     {
       "file": "campaigns/test-bad/emails/01-bad.md",
       "line": 12,
-      "severity": "medium",
-      "problem": "Still not fixed: the email has a second link (\"Read the lab list\"). Rule 3 in .claude/rules/emails.md allows exactly one main link per email.",
-      "fix": "Delete line 12. If the lab list matters, put it on the page behind the main link."
+      "severity": "high",
+      "problem": "The email has a second link (\"Read the lab list\" to /openshift-labs). Rule 3 in .claude/rules/emails.md allows exactly one link. This also makes it a second call to action.",
+      "fix": "Delete line 12. If the lab list matters, describe it in plain text in the body, for example \"The course page lists every lab.\", and keep only the \"See the course and enrol\" link."
     },
     {
       "file": "campaigns/test-bad/emails/01-bad.md",
       "line": 6,
       "severity": "medium",
-      "problem": "Still not fixed: the email uses \"game-changing\", which is on the brand voice's list of words to avoid.",
-      "fix": "Replace line 6 with a concrete fact, for example: \"Enrolment for our hands-on OpenShift 4.x training closes tonight.\""
+      "problem": "Uses \"game-changing\", which is on the \"Words we avoid\" list in brand/voice.md.",
+      "fix": "Use a concrete fact instead, for example: \"Enrolment for our hands-on OpenShift training closes tonight.\""
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 6,
+      "severity": "low",
+      "problem": "\"This is your last chance\" and \"act now\" are pushy sales lines. They don't fit the practical, peer-to-peer voice, though no written rule bans them.",
+      "fix": "State the deadline plainly and drop \"act now\", for example: \"Enrolment closes tonight at 23:59 UTC.\""
     }
   ]
 }
