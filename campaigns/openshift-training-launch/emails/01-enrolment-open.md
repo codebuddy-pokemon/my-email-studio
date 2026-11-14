@@ -1,4 +1,4 @@
-Subject: OpenShift training: enrolment is open
+Subject: Deploy, upgrade, troubleshoot: see the labs
 Preview: Hands-on labs on a real OpenShift 4.x cluster. First cohort starts Monday 11 January 2027.
 
 Hi {{first_name}},
