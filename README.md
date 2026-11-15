@@ -27,10 +27,6 @@ my-email-studio/
 │   │   ├── emails/           the 4 main emails
 │   │   └── groups/           one version of each email per customer group
 │   └── test-bad/             a deliberately broken email, used to test the review
-├── notes/                    research and working notes
-│   ├── skills-i-chose.md     which outside skills were trusted, and why
-│   ├── angle-a.md, angle-b.md, handoff.md   subject-line exploration
-│   └── reviews/              made-up customer reviews of an earlier workshop
 ├── .claude/
 │   ├── settings.json         turns on the marketing plugin and the send guard
 │   ├── rules/emails.md       the format every email file must follow
