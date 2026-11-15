@@ -78,13 +78,3 @@ You need Node.js 22 or newer, Git and Claude Code.
    ```
    It saves findings to `review/findings.json`. It exits with `0` if there are no high-severity problems, `1` if there is at least one, and `2` if the review itself could not run. Try it on `campaigns/test-bad` to see it catch problems.
 
-## Course progress
-
-Built step by step, with each step checked afterwards by a fresh Claude session:
-
-- **Part 1, plan and write (steps 1 to 8):** skill research, studio setup, brand voice, campaign plan, practice leads, the email rule and sequence, a fresh-eyes review and the `personalize` skill.
-- **Part 2, send safely (steps 9 to 11):** the Resend practice connection, the send guard and a practice launch.
-- **Part 3, work like a team (steps 12 to 13):** resuming and forking sessions, and the automatic review.
-- **Stretch:** step 15 (what customers love) is started in `notes/reviews/`. Step 14 (package the studio as a kit) is still to do.
-
-All people, leads and reviews in this repo are made up for practice.
